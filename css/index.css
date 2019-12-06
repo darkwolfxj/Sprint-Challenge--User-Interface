@@ -150,20 +150,20 @@ body {
     white-space:inherit;
     width:45%;
 }
-nav a {
+.index-nav a {
     text-decoration:none;
     color:black;
 }
-nav a:hover {
+.index-nav a:hover {
     color:red;
 }
-nav {
+.index-nav {
     display:flex;
     justify-content:space-between;
     align-items:baseline;
     margin-bottom:2%;
 }
-nav img {
+.index-nav img {
     magin-bottom:7%;
     vertical-align:top;
     align-items:top;
@@ -173,4 +173,60 @@ header .bighead {
     width:100%;
     height:20vh;
     margin-bottom:2%;
+}
+/* Coding for about.html */
+.about-nav a {
+    text-decoration:none;
+    color:black;
+}
+.about-nav a:hover {
+    color:red;
+}
+.about-nav {
+    margin-top:2%;
+    display:flex;
+    justify-content:space-around;
+    align-items:baseline;
+    margin-bottom:2%;
+
+}
+.about-nav img {
+    magin-bottom:7%;
+}
+.pic .skyline {
+    width:100%;
+    height:16vh;
+    margin-bottom:2%;
+}
+.about {
+    margin-bottom:2%;
+    padding:2%;
+    border-bottom:1px dotted black;
+}
+.column h2 {
+    margin-top:2%;
+}
+.column {
+    width:45%;
+    display:flex;
+    flex-direction:column;
+    margin:2% 0;
+    border-bottom:1px dotted black;
+}
+.row {
+    display:flex;
+    justify-content:space-around;
+}
+.button {
+    border:1px solid black;
+    border-radius:4px;
+    width:30%;
+    box-sizing:border-box;
+    padding:1%;
+    text-align:center;
+    margin:4% 0;
+    justify-content:left;
+}
+.last-section {
+    margin: 2% 5.5%;
 }
