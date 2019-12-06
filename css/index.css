@@ -151,6 +151,7 @@ body {
     width:45%;
 }
 .index-nav a {
+    margin-right:5%;
     text-decoration:none;
     color:black;
 }
@@ -171,12 +172,13 @@ body {
 header .bighead {
     border:red 1px solid;
     width:100%;
-    height:20vh;
+    height:17vh;
     margin-bottom:2%;
 }
 /* Coding for about.html */
 .about-nav a {
     text-decoration:none;
+    margin-right:5%;
     color:black;
 }
 .about-nav a:hover {
@@ -191,6 +193,7 @@ header .bighead {
 
 }
 .about-nav img {
+    margin-left:-11.5%;
     magin-bottom:7%;
 }
 .pic .skyline {
